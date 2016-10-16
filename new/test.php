@@ -30,7 +30,7 @@
 </head>
 <body>
 <div id="user" class="container">
-	<h2 style="font-size:2em; padding:5%; color:white"> Yo Girl! </h2>
+	<h2 style="font-size:2em; padding:5%; color:white">Hey Girl! </h2>
 </div>
 
 <div id="scholar">
@@ -90,17 +90,17 @@ for(var key in obj)
             {
             if(res[0] == 'MBA')
             {
-              document.getElementById("scholar").innerHTML="<button class='col-sm-10 btn-primary-outline' type='button'>Ada I. Pressman Memorial Scholarships</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>AAUW Selected Professional Fellowships</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Betty Lou Bailey SWE Region F Scholarships</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Google Anita Borg Memorial Scholarships</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Lydia I. Pickup Memorial Scholarship</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Women in Defense Horizons Scholarships</button>";
+              document.getElementById("scholar").innerHTML="<button class='col-sm-10 btn-primary-outline' type='button'>AAUW Selected Professions Group Fellowships</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Little Family Foundation MBA Fellowship</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>C200 Scholar Awards</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Toigo MBA Fellowship</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Military MBA Scholarships</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>National Black MBA Association Graduate Scholarships</button>";
             }
           }
 
-            var res = y.match(/MD/g);
+            var res = y.match(/Nursing/g);
             //console.log(res);
             if(res != null)
             {
-            if(res[0] == 'MD')
+            if(res[0] == 'Nursing')
             {
-              document.getElementById("scholar").innerHTML="<button class='col-sm-10 btn-primary-outline' type='button'>Ada I. Pressman Memorial Scholarships</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>AAUW Selected Professional Fellowships</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Betty Lou Bailey SWE Region F Scholarships</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Google Anita Borg Memorial Scholarships</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Lydia I. Pickup Memorial Scholarship</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Women in Defense Horizons Scholarships</button>";
+              document.getElementById("scholar").innerHTML="<button class='col-sm-10 btn-primary-outline' type='button'>AACN Scholarships</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Geraldine “Polly” Bednash Scholarship</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>CertifiedBackground.Com-GNSA Scholarship</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Hurst Reviews/AACN Nursing Scholarship</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>National Health Service Corps Scholarships</button>"+"<br><br>"+"<button class='col-sm-10 btn-primary-outline' type='button'>Johnson & Johnson/AACN Minority Nurse Faculty Scholars Program</button>";
             }
             }
 
